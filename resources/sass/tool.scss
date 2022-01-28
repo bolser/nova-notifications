@@ -8,10 +8,10 @@
 
 // Overrides
 .nova-notifications-dropdown {
-  height: 30px;
+  height: 30px !important;
 
   .trigger {
-    height: 30px;
+    height: 30px !important;
   }
 
   .dropdown-trigger {
