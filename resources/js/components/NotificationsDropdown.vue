@@ -1,8 +1,8 @@
 <template>
   <dropdown>
-    <dropdown-trigger>
+    <div class="trigger">
       <i class="pi pi-notification w-25 h-30"></i>
-    </dropdown-trigger>
+    </div>
 
         <dropdown-menu slot="menu" width="600" direction="rtl">
             <loading-view :loading="isLoading">
