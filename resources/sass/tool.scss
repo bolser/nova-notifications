@@ -7,8 +7,16 @@
 }
 
 // Overrides
-.dropdown-trigger {
-  svg {
-    display: none;
+.nova-notifications-dropdown {
+  .trigger {
+    height: 30px;
+  }
+
+  .dropdown-trigger {
+    padding: 0;
+
+    svg {
+      display: none;
+    }
   }
 }
