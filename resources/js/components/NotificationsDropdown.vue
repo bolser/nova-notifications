@@ -1,6 +1,6 @@
 <template>
   <dropdown>
-    <div class="trigger">
+    <div class="trigger" aria-label="View notifications">
       <i class="pi pi-notification w-25 h-30"></i>
     </div>
 
