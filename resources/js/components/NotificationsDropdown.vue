@@ -1,7 +1,9 @@
 <template>
   <dropdown>
-    <div class="trigger" aria-label="View notifications">
-      <i class="pi pi-notification w-25 h-30"></i>
+    <div class="trigger">
+      <button aria-label="View notifications">
+        <i class="pi pi-notification w-25 h-30"></i>
+      </button>
     </div>
 
         <dropdown-menu slot="menu" width="600" direction="rtl">
