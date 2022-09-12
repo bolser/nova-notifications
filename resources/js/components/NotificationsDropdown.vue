@@ -1,7 +1,7 @@
 <template>
   <dropdown>
     <div class="trigger">
-      <button aria-label="View notifications">
+      <button aria-label="View notifications" class="notification-icon">
         <i class="pi pi-notification w-25 h-30"></i>
       </button>
     </div>
@@ -146,5 +146,9 @@
 
     .bg-light-gray:hover {
         background-color: #fefefe;
+    }
+
+    .notification-icon {
+      padding-top: 4px;
     }
 </style>
